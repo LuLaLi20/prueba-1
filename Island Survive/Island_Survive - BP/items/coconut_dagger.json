@@ -1,0 +1,53 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "island_survive:coconut_dagger",
+      "category": "equipment",
+      "creative_group": "itemGroup.name.dagger",
+      "creative_category": {
+        "parent": "itemGroup.name.sword",
+        "category": "itemGroup.name.dagger"
+      }
+    },
+    "components": {
+      "minecraft:icon": "textures/items/coconut_dagger",
+      "minecraft:damage": 130,
+      "minecraft:durability": {
+        "max_durability": 130
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:display_name": {
+        "value": "Daga de Coco"
+      },
+      "minecraft:attack": {
+        "damage": 7,
+        "range": 2.0
+      },
+      "minecraft:digging": {
+        "destroy_speeds": [
+          { "block": "minecraft:leaves", "speed": 2.0 },
+          { "block": "minecraft:tallgrass", "speed": 2.0 },
+          { "block": "minecraft:grass", "speed": 2.0 },
+          { "block": "minecraft:double_plant", "speed": 2.0 },
+          { "block": "minecraft:flower", "speed": 2.0 },
+          { "block": "minecraft:wheat", "speed": 2.0 },
+          { "block": "minecraft:carrots", "speed": 2.0 },
+          { "block": "minecraft:potatoes", "speed": 2.0 },
+          { "block": "minecraft:beetroot", "speed": 2.0 },
+          { "block": "minecraft:melon_block", "speed": 2.0 },
+          { "block": "minecraft:pumpkin", "speed": 2.0 }
+        ],
+        "use_efficiency": true
+      },
+      "minecraft:enchantable": {
+        "slot": "sword",
+        "value": 10,
+        "enchantments": [
+          { "slot": "sword", "exclusions": ["fire_aspect"] },
+          { "slot": "digging" }
+        ]
+      }
+    }
+  }
+}

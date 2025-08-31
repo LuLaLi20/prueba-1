@@ -1,0 +1,7 @@
+item.island_survive.coconut.name=Coco
+item.island_survive.coconut_bark.name=Corteza de coco
+item.island_survive.coconut_dagger.name=Coitelo de coco
+tile.island_survive.palm_leaves.name=Follas de palmeira
+tile.island_survive.palm_log.name=Tronco de palmeira
+tile.island_survive.coconut_pod.name=Coco plantado
+entity.island_survive.coco.name=Coco

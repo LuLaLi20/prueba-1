@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "island_survive:coconut_dagger"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "B",
+      "B",
+      "S"
+    ],
+    "key": {
+      "B": { "item": "island_survive:coconut_bark" },
+      "S": { "item": "minecraft:stick" }
+    },
+    "result": { "item": "island_survive:coconut_dagger", "count": 1 }
+  }
+}

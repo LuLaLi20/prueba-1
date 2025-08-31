@@ -1,0 +1,15 @@
+{
+  "resource_pack_name": "Island Survive RP",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "coconut_dagger": {
+      "textures": "textures/items/coconut_dagger"
+    },
+    "coconut": {
+      "textures": "textures/items/coconut"
+    },
+    "coconut_bark": {
+      "textures": "textures/items/coconut_bark"
+    }
+  }
+}

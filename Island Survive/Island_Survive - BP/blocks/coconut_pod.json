@@ -1,0 +1,39 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "island_survive:coconut_pod",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:destroy_time": 0.2,
+      "minecraft:explosion_resistance": 1,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "coconut_pod",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          { "block": "minecraft:sand", "allowed_faces": ["up"] }
+        ]
+      },
+      "minecraft:random_ticking": {},
+      "minecraft:on_random_tick": {
+        "event": "grow_tree"
+      },
+      "minecraft:on_interact": {
+        "condition": "has_bone_meal",
+        "event": "grow_tree"
+      },
+      "minecraft:events": {
+        "grow_tree": {
+          "run_command": {
+            "command": ["structure load island_survive:palm_tree ~ ~ ~"]
+          }
+        }
+      }
+    }
+  }
+}

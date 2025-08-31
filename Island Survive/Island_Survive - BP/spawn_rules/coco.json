@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "island_survive:coco",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:biome_filter": ["beach"],
+        "minecraft:weight": 10,
+        "minecraft:herd_size": [1, 2]
+      }
+    ]
+  }
+}

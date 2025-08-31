@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "island_survive:palm_leaves",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:destroy_time": 0.2,
+      "minecraft:explosion_resistance": 1,
+      "minecraft:flammable": {
+        "flame_odds": 60,
+        "burn_odds": 30
+      },
+      "minecraft:map_color": "#3ca370",
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.leaves"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "palm_leaves",
+          "render_method": "alpha_test"
+        }
+      }
+    }
+  }
+}

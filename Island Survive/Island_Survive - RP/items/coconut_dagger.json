@@ -1,0 +1,12 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "island_survive:coconut_dagger",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": "textures/items/coconut_dagger"
+    }
+  }
+}

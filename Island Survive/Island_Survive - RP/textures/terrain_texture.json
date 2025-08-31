@@ -1,0 +1,8 @@
+{
+  "format_version": "1.20.0",
+  "texture_data": {
+    "palm_leaves": { "textures": "textures/blocks/palm_leaves" },
+    "palm_log": { "textures": "textures/blocks/palm_log" },
+    "coconut_pod": { "textures": "textures/blocks/coconut_pod" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"format_version": "1.8.0",
+		"render_controllers": {
+			"controller.render.coco": {
+				"geometry": "geometry.island_survive:coco",
+				"materials": [ { "*": "entity_alphatest" } ],
+				"textures": [ "textures/entity/coco" ]
+			}
+		}
+}

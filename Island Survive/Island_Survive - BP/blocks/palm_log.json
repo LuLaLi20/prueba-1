@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "island_survive:palm_log",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:destroy_time": 2.0,
+      "minecraft:explosion_resistance": 2,
+      "minecraft:flammable": {
+        "flame_odds": 5,
+        "burn_odds": 5
+      },
+      "minecraft:map_color": "#b08d57",
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.log"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "palm_log",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:worldgen_placement": {
+    "description": {
+      "identifier": "island_survive:palm_tree_placement"
+    },
+    "places_feature": ["island_survive:palm_tree_feature"],
+    "conditions": {
+      "biome_tag": "beach",
+      "rarity": 8
+    }
+  }
+}

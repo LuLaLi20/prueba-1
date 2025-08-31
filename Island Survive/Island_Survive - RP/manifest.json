@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Paquete de recursos para Island Survive.",
+    "name": "Island Survive - RP",
+    "uuid": "d9a4a4a3-3e4c-6d9c-ba4a-3e4c6d9cba4a",
+    "version": [3, 0, 2],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Módulo principal de recursos.",
+      "type": "resources",
+      "uuid": "eaf5b5b4-4f5d-7eaf-c5b5-4f5d7eafc5b5",
+      "version": [3, 0, 2]
+    }
+  ]
+}

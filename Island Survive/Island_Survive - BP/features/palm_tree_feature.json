@@ -1,0 +1,12 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "island_survive:palm_tree_feature"
+    },
+    "conditions": {
+      "placement_block": ["minecraft:sand"]
+    },
+    "places_feature": ["island_survive:palm_tree"]
+  }
+}

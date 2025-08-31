@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "island_survive:coconut",
+      "category": "nature",
+      "creative_group": "itemGroup.name.dye",
+      "creative_category": {
+        "parent": "itemGroup.name.dye",
+        "category": "itemGroup.name.dye"
+      }
+    },
+    "components": {
+      "minecraft:icon": "textures/items/coconut",
+      "minecraft:display_name": { "value": "Coco" },
+      "minecraft:use_duration": 32,
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": "low"
+      },
+      "minecraft:block_placer": {
+        "block": "island_survive:coconut_pod"
+      },
+      "minecraft:render_offsets": "seed"
+    }
+  }
+}

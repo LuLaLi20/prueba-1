@@ -1,0 +1,48 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "island_survive:coco",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/coco"
+      },
+      "geometry": {
+        "default": "geometry.island_survive:coco"
+      },
+      "scripts": {},
+      "animations": {},
+  "render_controllers": ["controller.render.coco"]
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["neutral"]
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 1,
+        "entity_types": ["player"],
+        "must_see": true,
+        "within_radius": 16,
+        "hurt_by": true
+      },
+      "minecraft:nameable": {},
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:pushable": {},
+      "minecraft:health": {
+        "value": 10,
+        "max": 10
+      },
+      "minecraft:loot": {},
+      "minecraft:physics": {}
+    }
+  }
+}
